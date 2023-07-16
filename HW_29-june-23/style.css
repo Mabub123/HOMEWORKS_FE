@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    
+    padding: 50px;
+}
+.box1 {
+
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    justify-content: center;
+    
+}
+
+.box2 {
+
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    bottom: 46px;
+    right: -28px;
+    z-index: 3;
+    
+}
+
+.box3 {
+
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color:blue;
+    bottom: 110px;
+    right: -60px;
+    z-index: -5;
+}
